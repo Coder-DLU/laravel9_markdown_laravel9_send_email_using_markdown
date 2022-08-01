@@ -15,6 +15,15 @@ MAIL_PASSWORD=rrnnucvnqlbsl
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=mygoogle@gmail.com
 MAIL_FROM_NAME="${APP_NAME}"
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=1812767@dlu.edu.vn
+MAIL_PASSWORD=Bichhien2612
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=1812767@dlu.edu.vn
+MAIL_FROM_NAME="${APP_NAME}"
 ```
 ## 3/. Create Mailable Class with Markdown
 ```Dockerfile
