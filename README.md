@@ -102,6 +102,7 @@ class MailController extends Controller
     }
 }
 ```
+- your_email@gmail.com là tài khoản emain để nhận email
 ## 5. Create Routes
 - Vào routes/web.php
 ```Dockerfile
