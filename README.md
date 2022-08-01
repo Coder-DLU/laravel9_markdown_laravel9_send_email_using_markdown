@@ -9,22 +9,19 @@ composer create-project laravel/laravel laravel9_markdown_laravel9_send_email_us
 ```Dockerfile
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.gmail.com
-MAIL_PORT=465
-MAIL_USERNAME=mygoogle@gmail.com
-MAIL_PASSWORD=rrnnucvnqlbsl
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=mygoogle@gmail.com
-MAIL_FROM_NAME="${APP_NAME}"
-
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
 MAIL_PORT=587
 MAIL_USERNAME=1812767@dlu.edu.vn
-MAIL_PASSWORD=Bichhien2612
+MAIL_PASSWORD=nhập password của email
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=1812767@dlu.edu.vn
 MAIL_FROM_NAME="${APP_NAME}"
 ```
+- Chú ýnhập password của email
+- Chú ý bật tính năng sau của email
+
+![Container](a2.png)
+![Container](a3.png)
+
 ## 3/. Create Mailable Class with Markdown
 ```Dockerfile
 php artisan make:mail MyDemoMail --markdown=emails.myDemoMail
@@ -147,6 +144,8 @@ Thanks,
 php artisan serve
 ```
 - Vào http://localhost:8000/send-mail
+
+![Container](a1.png)
 
 Output:
 
